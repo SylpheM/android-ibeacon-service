@@ -103,8 +103,8 @@ public class IBeaconService extends Service {
      * 
      */
     private static final long SCAN_PERIOD = 1100;
-    private static final long BACKGROUND_SCAN_PERIOD = 30000;
-    private static final long BACKGROUND_BETWEEN_SCAN_PERIOD = 5*60*1000;
+    protected long BACKGROUND_SCAN_PERIOD = 30000;
+    protected long BACKGROUND_BETWEEN_SCAN_PERIOD = 5*60*1000;
     
     /**
      * Class used for the client Binder.  Because we know this service always
